@@ -51,7 +51,7 @@ workflows:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
     publishing:
         firebase:
-          firebase_token: $FIREBASE_TOKEN
+          firebase_token: $IOS_FIREBASE_TOKEN
           ios:
             app_id: 1:660347942537:ios:0e7fa39af0cac63aebb858  # Add your iOS app id retrieved from Firebase console
             groups: # Add one or more groups that you wish to distribute your iOS application to, you can create groups in the Firebase console
