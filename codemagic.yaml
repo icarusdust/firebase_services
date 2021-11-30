@@ -49,6 +49,6 @@ workflows:
         firebase:
           firebase_service_account: $IOS_FIREBASE_TOKEN
           ios:
-            app_id: 1:660347942537:ios:0e7fa39af0cac63aebb858  # Add your iOS app id retrieved from Firebase console
+            app_id: 1:794145853480:ios:29e26c060cb9c6d127251d
             groups: # Add one or more groups that you wish to distribute your iOS application to, you can create groups in the Firebase console
               - nihal
